@@ -10,12 +10,13 @@ const Navbar = async () => {
   const { getUser } = getKindeServerSession();
   const user = await getUser();
   return (
-    <div className="bg-gray-400 p-2 flex justify-between">
+    <div className="bg-gray-400 p-2">
+      <div className=" container mx-auto flex justify-between items-center">
       <div>
-        <h2>blog</h2>
+        <h2 className="text-2xl font-bold">Blog</h2>
       </div>
       <div>
-        <ul  className="flex gap-2">
+        <ul  className="flex gap-3">
         <li>
                 <Link href="/">Home</Link>
              
@@ -44,6 +45,7 @@ const Navbar = async () => {
           )}
         </ul>
       </div>
+    </div>
     </div>
   );
 };

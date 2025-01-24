@@ -1,6 +1,6 @@
 import Link from "next/link";
 import getAllPosts from "../../fetch/getAllPosts";
-import Blogs from "./Blogs/page";
+import Blogs from "./blogs/page";
 import Button from "./components/Button";
 
 const Home = async () => {
