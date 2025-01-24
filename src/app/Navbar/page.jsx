@@ -78,7 +78,7 @@ const Navbar = () => {
                 className="text-white font-semibold hover:bg-blue-700 py-2 px-4 rounded-md transition duration-300"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Sign up
+                Sign Up
               </RegisterLink>
             </>
           )}
