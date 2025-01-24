@@ -4,9 +4,9 @@ export const metadata = {
   description: "This is a Details page",
 };
 const Blog = async ({ params }) => {
-  const { id } = params;
+  const { id } = await params;
   const post = await getPost(id);
-  console.log(post)
+ 
   return (
     <div className="container rounded-md mx-auto mt-12 border p-6  md:p-12 shadow-xl">
       <h4 className="text-2xl font-bold">Number : {id}</h4>
