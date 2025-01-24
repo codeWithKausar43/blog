@@ -1,6 +1,6 @@
 import Link from "next/link";
 import getAllPosts from "../../fetch/getAllPosts";
-import Blogs from "./blogs/page";
+ 
 import Button from "./components/Button";
 
 const Home = async () => {
@@ -15,7 +15,7 @@ const Home = async () => {
               <h3 className="text-xl">{post.title}</h3>
 
               <div className="mt-4">
-                <Link href={`/Blogs/${post.id}`}>
+                <Link href={`/blogs/${post.id}`}>
                   <Button />
                 </Link>
               </div>
