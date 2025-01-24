@@ -22,7 +22,7 @@ const Navbar = async () => {
              
               </li>
               <li>
-                <Link href="/Blogs">Blogs</Link>
+                <Link href="/blog">Blogs</Link>
               </li>
           {user ? (
             <>
