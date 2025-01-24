@@ -15,7 +15,7 @@ const Home = async () => {
               <h3 className="text-xl">{post.title}</h3>
 
               <div className="mt-4">
-                <Link href={`/blogs/${post.id}`}>
+                <Link href={`/blog/${post.id}`}>
                   <Button />
                 </Link>
               </div>
